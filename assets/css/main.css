@@ -92,7 +92,7 @@ html {
 }
 
 body {
-  background: #303140;
+  background: rgb(48, 49, 64);
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -moz-animation: none !important;
@@ -1516,7 +1516,7 @@ input[type=button].primary,
 button.primary,
 .button.primary {
   background-color: #ffffff;
-  color: #303140 !important;
+  color: rgb(48, 49, 64) !important;
 }
 input[type=submit].primary:after,
 input[type=reset].primary:after,
@@ -1895,7 +1895,7 @@ select {
 }
 select option {
   color: #ffffff;
-  background: #303140;
+  background: rgb(48, 49, 64);
 }
 select:focus::-ms-value {
   background-color: transparent;
@@ -2049,7 +2049,7 @@ input[type=radio] + label:before {
   display: block;
   background: #ffffff;
   border-radius: 100%;
-  color: #303140;
+  color: rgb(48, 49, 64);
   text-align: center;
   line-height: 2.5em;
   margin: 0 0 1.3em 0;
@@ -2850,7 +2850,7 @@ body.is-ie .wrapper.fullscreen {
 /* Sidebar */
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
-  background: #303140;
+  background: rgb(48, 49, 64);
   cursor: default;
   height: 100vh;
   left: 0;
