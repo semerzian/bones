@@ -10,7 +10,7 @@
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
-			min-height: 22.5em;
+			min-height: 5em;
 
 			body.is-ie & {
 				min-height: 0;
@@ -44,11 +44,11 @@
 			}
 
 			> .content {
-				@include padding(4em, 5em);
+				@include padding(1em, 1em);
 				@include vendor('display', 'flex');
 				@include vendor('flex-direction', 'column');
 				@include vendor('justify-content', 'center');
-				width: #{_size(inner-width) - 25em};
+				width: #{_size(inner-width) - 10em};
 				-ms-flex: 1;
 
 				> .inner {
@@ -59,17 +59,6 @@
 					));
 					opacity: 1;
 				}
-			}
-
-			&:nth-child(1) {
-			}
-
-			&:nth-child(2) {
-				background-color: rgba(0,0,0,0.05);
-			}
-
-			&:nth-child(3) {
-				background-color: rgba(0,0,0,0.1);
 			}
 
 			&.inactive,
@@ -90,7 +79,7 @@
 
 			@include breakpoint('<=xlarge') {
 				> .content {
-					@include padding(4em, 4em);
+					@include padding(1em, 1em);
 				}
 			}
 
@@ -123,7 +112,7 @@
 				}
 
 				> .content {
-					@include padding(3em, 2em);
+					@include padding(1em, 1em);
 				}
 			}
 		}
