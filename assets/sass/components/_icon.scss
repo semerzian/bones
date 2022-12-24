@@ -32,15 +32,15 @@
 		}
 
 		&.major {
-			width: 2.5em;
-			height: 2.5em;
+			width: 3em;
+			height: 3em;
 			display: block;
 			background: _palette(fg-bold);
 			border-radius: 100%;
 			color: _palette(bg);
 			text-align: center;
-			line-height: 2.5em;
-			margin: 0 0 (_size(element-margin) * 0.65) 0;
+			line-height: 5em;
+			margin: 0 0 (_size(element-margin) * 1) 0;
 
 			&:before {
 				font-size: 1.25em;

@@ -29,18 +29,8 @@
 
 		td {
 			padding: 0.75em 0.75em;
-		}
-
-		th {
-			color: _palette(fg-bold);
-			font-size: 1em;
-			font-weight: _font(weight-bold);
-			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
-		}
-
-		thead {
-			border-bottom: solid (_size(border-width) * 2) _palette(border);
+			font-size: .9em;
+			font-family: Roboto;
 		}
 
 		tfoot {

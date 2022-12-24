@@ -1,3 +1,4 @@
 # bones
 
-To update styling: % sass sass/main.scss css/main.css
+To update styling: % assets/sass sass/main.scss css/main.css
+Make sure to change directory to assets first
