@@ -2074,17 +2074,17 @@ input[type=radio] + label:before {
 }
 
 .profile-pic {
-  border-radius: 50%;
-  height: 10vh;
+  /* border-radius: 50%; */
+  height: 20vh;
   border: 0;
   position: relative;
 }
 .profile-pic img {
-  border-radius: 50%;
-  max-width: 20vh;
-  max-height: 20vh;
+  border-radius: 1%;
+  max-width: 30vh;
+  max-height: 30vh;
   width: auto;
-  height: 12vh;
+  height: 24vh;
   display: block;
 }
 
