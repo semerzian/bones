@@ -2080,7 +2080,7 @@ input[type=radio] + label:before {
   position: relative;
 }
 .profile-pic img {
-  border-radius: 50%;
+  border-radius: 1%;
   max-width: 30vh;
   max-height: 30vh;
   width: auto;
