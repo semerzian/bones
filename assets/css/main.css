@@ -2074,7 +2074,7 @@ input[type=radio] + label:before {
 }
 
 .profile-pic {
-  /* border-radius: 50%; */
+  border-radius: 1%;
   height: 20vh;
   border: 0;
   position: relative;
