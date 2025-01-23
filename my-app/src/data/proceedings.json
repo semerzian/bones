@@ -1,7 +1,7 @@
 {
   "conferences": [
     {
-      "title": "Type 1, But Not Type 2, Diabetes Reduces Resistance to Damage Accumulation in Femoral Cortical Bone in Older Adults",
+      "title": "Type 1 Diabetes, But Not Type 2, Reduces Resistance to Damage Accumulation in Femoral Cortical Bone in Older Adults",
       "authors": [
         "Emerzian SR",
         "Granados M",
@@ -20,7 +20,8 @@
       "conference": "Annual Meeting of the Orthopedic Research Society",
       "location": "Phoenix, Arizona, USA",
       "date": "02/2025",
-      "type": "Poster"
+      "type": "Poster",
+      "pdfLink": "./pdfs/Emerzian_Medalist_ORS2025_DamageAccumulation_v2.pdf"
     },
     {
       "title": "Femoral Neck Shape is Altered in Older Adults with Long-Duration Type 1 Diabetes",
